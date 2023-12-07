@@ -1,0 +1,106 @@
+:root {
+    --orange: #ffb600;
+    --black: #000;
+    --white: #fff;
+    --bg-dark: #141824;
+    --bg-light: #e8eae3;
+}
+
+.section-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./image/1.jpeg');
+    min-height: 100vh;
+    background-size: cover;
+    background-position-y: -140px;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.sec-1-cards i {
+    color: var(--orange);
+}
+
+.sec-2-heading {
+    border-top: 1px solid var(--white);
+    border-bottom: 1px solid var(--white);
+}
+
+.section-2 {
+    background-color: var(--bg-dark);
+}
+
+.bg-yellow {
+    background-color: var(--orange);
+    width: 72%;
+    right: 8px;
+    top: 0;
+    height: 38px;
+    z-index: -1;
+    position: absolute;
+}
+
+.sec-3-right>img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-3 {
+    background-color: var(--bg-light);
+}
+
+.sec-3-left>i,
+.sec-6-right-cards i,
+.sec-7-icons>i,
+.social-icons>i {
+    color: var(--orange);
+}
+
+.sec-5-img>img {
+    height: 330px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-5 .row>* {
+    padding: 0;
+}
+
+.sec-6-left>img {
+    height: 440px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sec-7-icons i:last-child {
+    top: -15px;
+    left: 21px;
+}
+
+.bg-yellow-2 {
+    background-color: var(--orange);
+    width: 90%;
+    right: 20px;
+    top: 0;
+    height: 40px;
+    z-index: -1;
+    position: absolute;
+}
+
+input {
+    display: block;
+    background: none;
+    border: 1px solid var(--white);
+}
+
+textarea {
+    background: none;
+}
+
+.section-8 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./image/8.jpeg');
+    height: 500px;
+    background-size: cover;
+    background-position: 50%;
+}
